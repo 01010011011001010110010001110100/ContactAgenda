@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Contacts</title>
+</head>
+<body>
+
+    <div class="empty-row">
+        <h1 class="bg-secondary text-light">Contact Agenda</h3>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+
+            <div>
+                <div class="card">
+                    <div class="card-header bg-error text-light">
+                        <h1>Contacts</h1>
+                    </div>
+                    <div class="card-body bg-light" id="card-body-contacts">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Last name</th>
+                                    <th>Phone number</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-contacts"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <div class="card">
+                    <div class="card-header bg-primary text-light">
+                        <h1>Add Contact</h1>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form method="post" id="form-add-contact" action="index.html" class="form-container">
+                            <div class="input-group">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="InputName">
+                            </div>
+                            <div class="input-group">
+                                <label for="lastName">Last name:</label>
+                                <input type="text" name="lastName" id="InputLastName">
+                            </div>
+                            <div class="input-group">
+                                <label for="phoneNumber">Phone number:</label>
+                                <input type="text" name="phoneNumber" id="InputPhoneNumber">
+                            </div>
+                            <div class="input-group-button">
+                                <button type="submit" class="btn text-light">Add</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="JS/index.js"></script>
+</html>

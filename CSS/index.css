@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.empty-row {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.empty-row h1{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 10px;
+    display: inline-flex;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card .card-header,.card .card-body {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-container {
+    width: 80%;
+    display: block;
+}
+
+.form-container input {
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgb(179, 179, 179);
+    border-style: solid;
+}
+
+.form-container input:focus {
+    border-color: rgb(64, 169, 255);
+    outline: none;
+}
+
+.input-group label, .input-group input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group-button{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: rgb(59, 167, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(37, 137, 219);
+}
+
+.btn:active {
+    background-color: rgb(81, 177, 255);
+}
+
+
+
+.bg-light { background-color: rgb(245, 245, 245); }
+.bg-dark { background-color: rgb(34, 40, 49); }
+.bg-warning { background-color: rgb(255, 255, 59); }
+.bg-error { background-color: rgb(255, 59, 59); }
+.bg-succes { background-color: rgb(59, 255, 59); }
+.bg-primary { background-color: rgb(59, 167, 255); }
+.bg-secondary { background-color: rgb(158, 158, 158); }
+
+.text-light { color: rgb(245, 245, 245); }
+.text-dark { color: rgb(34, 40, 49); }
+.text-warning { color: rgb(255, 255, 59); }
+.text-error { color: rgb(255, 59, 59); }
+.text-succes { color: rgb(59, 255, 59); }
+.text-primary { color: rgb(59, 167, 255); }
+.text-secondary { color: rgb(158, 158, 158); }
